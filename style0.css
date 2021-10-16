@@ -28,13 +28,20 @@ body {
 	grid-template-columns: 50px 1fr 1fr 1fr 50px;
 	grid-template-rows: auto;
 	grid-gap: 20px;
-	background-color: #616161;
+	background-color: #49b3f5;
 	margin: 0px;
 }
 
+.header {
+
+	background-color:#ff7542;
+	font-size: 60px;
+	text-align:center;
+	padding: 20px 0;
+}
 .quote {
 
-	background-color:#7d7d7d;
+	background-color:#233d4d;
 	font-size: 60px;
 	text-align:center;
 	padding: 150px 0;
@@ -43,7 +50,7 @@ body {
 }
 
 .quote-img {
-  background-color: #9c9c9c ;
+  background-color: #233d4d ;
   font-size: 60px;
 	text-align:center;
 	padding: 150px 0;
@@ -57,7 +64,7 @@ body {
 	text-align:center;
 	padding: 40px 0px;
 	margin:20px;
-	border: 5px solid #000000;
+	border: 5px solid #d18d35;
 }
 .concerts {
 
@@ -66,8 +73,7 @@ body {
 	text-align:center;
 	padding: 40px 0px;
 	margin:20px;
-	border: 5px solid #000000;
-
+	border: 5px solid #d18d35;
 }
 .signup {
 
@@ -75,14 +81,13 @@ body {
 	text-align:center;
 	padding: 40px 0px;
 	margin:20px;
-	border: 5px solid #000000;
-
+	border: 5px solid #d18d35;
 }
 
 .share {
 	display: grid;
 	grid-template-columns: 50px 1fr 1fr 1fr 50px;
-	background-color: #9c9c9c;
+	background-color: #233d4d;
 	text-align:left;
 	padding: 40px 20px 40px 60px;
 	margin:0px;
@@ -98,7 +103,7 @@ body {
 	text-align:center;
 	padding: 40px 0px;
 	border: 5px 0px 0px 0px solid #d18d35;
-	
+	background-color: #425054;
 }
 
 .button-overlay {
@@ -134,7 +139,7 @@ body {
 	font-size: 24px;	
 	list-style-type: none;  
 	display: inline-block;
- 
+
 	border-radius: 30px;
 	margin: 0px 100px;
 	transition: ease 0.5s;
@@ -144,4 +149,4 @@ body {
 	border-radius: 5px;
 	font-size: 30px;
 	transition: ease 0.5s;
-} 
+}
