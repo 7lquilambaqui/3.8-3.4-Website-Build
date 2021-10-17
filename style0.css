@@ -133,15 +133,14 @@ body {
 
 .nav a {
 	float: center;
-	color: black;
+	color: #5ab4d3;
 	text-align: center;
 	padding: 15px 50px;
 	text-decoration: none;
 	font-size: 24px;	
 	list-style-type: none;  
 	display: inline-block;
-
-	border-radius: 30px;
+ 	font-family: 'Allerta', sans-serif;
 	margin: 0px 100px;
 	transition: ease 0.5s;
 }
