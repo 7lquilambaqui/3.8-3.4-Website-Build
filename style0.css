@@ -9,6 +9,13 @@ body {
 	margin: auto;
 }
 
+.nav a:hover {
+	background-color: rgba(90, 180, 211,.4);
+	border-radius: 5px;
+	font-size: 30px;
+	transition: ease 0.5s;
+}
+
 .header-img {
 	background-image: url("header.jpg");
 	min-height: 500px;
