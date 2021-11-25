@@ -52,12 +52,34 @@ body {
 
 
 .line {
-	background-color: #233d4d;
-	
+	background-color: #d18d35;
+	height:10px;
+	border-radius: 0px 20px 20px 0px;
+	margin: 45px 0px 0px 0px;	
 }
+.line2 {
+	background-color: #d18d35;
+	height:10px;
+	border-radius: 20px 0px 0px 20px;
+	margin: 45px 0px 0px 0px;	
+}
+
+.button-word {
+	display: grid;
+	grid-template-columns: 40% 20% 40% 20px;
+	background-color: #49b3f5;
+	padding: 50px 10px 20px 10px;
+	margin:0px;
+	font-size: 80px;
+	text-align:center;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
+	margin: 0px;
+	border:0;
+}
+
 .about {
 
-	background-image: ;
 	font-size: 40px;
 	text-align:center;
 	padding: 40px 0px;
@@ -65,6 +87,11 @@ body {
 	border: 5px solid #d18d35;
 	font-family: 'Allerta', sans-serif;
 }
+
+.about:hover {
+	
+}
+
 .concerts {
 
 	background-image: ;
@@ -75,6 +102,11 @@ body {
 	border: 5px solid #d18d35;
 	font-family: 'Allerta', sans-serif;
 }
+
+.concerts:hover {
+	
+}
+
 .signup {
 
 	font-size: 40px;
@@ -83,6 +115,10 @@ body {
 	margin:20px;
 	border: 5px solid #d18d35;
 	font-family: 'Allerta', sans-serif;
+}
+
+.signup:hover {
+	
 }
 
 .share {
@@ -132,8 +168,7 @@ body {
 	grid-template-columns: 100px 1fr 5fr 1fr 60px;
 	grid-template-rows: auto;
 	background-color: #425054;
-	
-margin: 0px; 
+	margin: 0px; 
 
 }
 
@@ -202,7 +237,6 @@ margin: 0px;
 	width: 100%;
 	padding:20px;
 	margin: auto;
-
 }
 
 
