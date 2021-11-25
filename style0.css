@@ -108,6 +108,33 @@ body {
 	border:0;
 }
  
+.share-buttons {
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 5fr;
+	background-color: #233d4d;
+	text-align:left;
+	padding: 20px 20px 40px 60px;
+	margin:0px;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
+	margin: 0px;
+	border:0;
+}
+
+.underline {
+	display: grid;
+	grid-template-columns: 5fr 4fr 5fr;
+	background-color: #233d4d;
+}
+
+.under {
+	grid-column-start: 2;
+	width: 4fr;
+	height: 8px;
+	background-color: #d18d35;
+	border-radius: 20px;
+}
 
 .footer {
 
