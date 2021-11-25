@@ -72,6 +72,7 @@ body {
 	padding: 40px 0px;
 	margin:20px;
 	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
 }
 .concerts {
 
@@ -81,6 +82,7 @@ body {
 	padding: 40px 0px;
 	margin:20px;
 	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
 }
 .signup {
 
@@ -89,19 +91,23 @@ body {
 	padding: 40px 0px;
 	margin:20px;
 	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
 }
 
 .share {
 	display: grid;
-	grid-template-columns: 50px 1fr 1fr 1fr 50px;
+	grid-template-columns: 5fr 4fr 5fr;
 	background-color: #233d4d;
-	text-align:left;
-	padding: 40px 20px 40px 60px;
+	text-align:center;
+	padding: 20px 10px 20px 10px;
 	margin:0px;
-  font-size: 60px;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
 	margin: 0px;
 	border:0;
 }
+ 
 
 .footer {
 
@@ -119,7 +125,7 @@ body {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
+	right: 0; 
 	height: 100%;
 	width: 100%;
 	opacity: 1;
@@ -151,9 +157,58 @@ body {
 	margin: 0px 100px;
 	transition: ease 0.5s;
 }
+
 .nav a:hover {
 	background-color: rgba(90, 180, 211,.4);
 	border-radius: 5px;
 	font-size: 30px;
 	transition: ease 0.5s;
+}
+
+.nav a:active:after {
+	color: #ffffff;
+	border-radius: 15px;
+	transition: none;
+}
+
+.nav a:active {
+	color: #ffffff;
+	border-radius: 15px;
+	transition: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
