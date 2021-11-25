@@ -4,6 +4,7 @@ body {
 
 .nav-container {
 	position: relative;
+	margin: 0px; 
 	width: 100%;
 	padding:20px;
 	margin: auto;
@@ -23,11 +24,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	margin: 0px; 
 }
 .quote-container {
-  display:grid;
-  grid-template-columns: 1fr 1fr ;
-  margin: 0px;
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	margin: 0px;
     
 }
 .button-container {
@@ -40,7 +42,6 @@ body {
 }
 
 .header {
-
 	background-color:#ff7542;
 	font-size: 60px;
 	text-align:center;
@@ -63,6 +64,11 @@ body {
 	padding: 150px 0;
 	margin: 0px;
 	border:0;
+}
+
+.line {
+	background-color: #233d4d;
+	
 }
 .about {
 
@@ -137,15 +143,33 @@ body {
 }
 
 .footer {
-
+	display: grid;
+	grid-template-columns: 100px 1fr 5fr 1fr 60px;
+	grid-template-rows: auto;
 	background-color: #425054;
-	color: #c0c0c0;
-	font-size: 20px;
-	text-align:center;
-	padding: 40px 0px;
-	border: 5px 0px 0px 0px solid #d18d35;
-	font-family: 'Allerta', sans-serif;
+	
+margin: 0px; 
+
 }
+
+.copyright {
+	color: #c0c0c0;
+	font-size: 25px;
+	text-align:center;
+	padding: 50px 20px;
+	border: 5px 0px 0px 0px solid #d18d35;
+	font-family: 'Allerta', sans-serif; 
+}
+.tc-logo {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 20px;
+}	
+.tc-logo2 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	padding: 20px 100px 20px 20px;
+}	
 
 .button-overlay {
 	position: absolute;
