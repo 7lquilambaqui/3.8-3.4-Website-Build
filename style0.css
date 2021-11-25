@@ -37,7 +37,7 @@ body {
 	background-color:#233d4d;
 	font-size: 60px;
 	text-align:center;
-	padding: 150px 0;
+	padding: 20px 20px 0px 100px;
 	margin: 0px;
 	border:0;
 }
@@ -46,10 +46,10 @@ body {
   background-color: #233d4d ;
   font-size: 60px;
 	text-align:center;
-	padding: 150px 0;
+	padding: 40px 0px 50px 0px;
 	margin: 0px;
-	border:0;
 }
+
 
 .line {
 	background-color: #233d4d;
@@ -90,7 +90,7 @@ body {
 	grid-template-columns: 5fr 4fr 5fr;
 	background-color: #233d4d;
 	text-align:center;
-	padding: 20px 10px 20px 10px;
+	padding: 50px 10px 20px 10px;
 	margin:0px;
 	font-size: 60px;
 	color: #ffffff;
@@ -104,7 +104,7 @@ body {
 	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 5fr;
 	background-color: #233d4d;
 	text-align:left;
-	padding: 20px 20px 40px 60px;
+	padding: 20px 20px 50px 60px;
 	margin:0px;
 	font-size: 60px;
 	color: #ffffff;
