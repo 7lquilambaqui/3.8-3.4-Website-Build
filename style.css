@@ -1,0 +1,332 @@
+body {
+	 margin: 0px ; 
+	 background-color: #5ab4d3;
+}
+
+.header-img {
+	background-image: url("guitawa.png");
+	min-height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0px; 
+}
+.quote-container {
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	margin: 0px;
+    
+}
+.button-container {
+	display: grid;
+	grid-template-columns: 50px 1fr 1fr 1fr 50px;
+	grid-template-rows: auto;
+	grid-gap: 20px;
+	background-color: #5ab4d3;
+	margin: 0px;
+}
+
+.header {
+	background-color:#ff7542;
+	font-size: 60px;
+	text-align:center;
+	padding: 20px 0;
+}
+.quote {
+
+	background-color:#233d4d;
+	font-size: 60px;
+	text-align:center;
+	padding: 20px 20px 0px 100px;
+	margin: 0px;
+	border:0;
+}
+
+.quote-img {
+  background-color: #233d4d ;
+  font-size: 60px;
+	text-align:center;
+	padding: 40px 0px 50px 0px;
+	margin: 0px;
+}
+
+
+.line {
+	background-color: #d18d35;
+	height:10px;
+	border-radius: 0px 20px 20px 0px;
+	margin: 45px 0px 0px 0px;	
+}
+.line2 {
+	background-color: #d18d35;
+	height:10px;
+	border-radius: 20px 0px 0px 20px;
+	margin: 45px 0px 0px 0px;	
+}
+
+.button-word {
+	display: grid;
+	grid-template-columns: 40% 20% 40% 20px;
+	background-color: #5ab4d3;
+	padding: 50px 10px 20px 10px;
+	margin:0px;
+	font-size: 80px;
+	text-align:center;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
+	margin: 0px;
+	border:0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+a {
+	text-decoration: none;
+
+}
+
+a < img {
+	width:80%;
+}
+
+#googleForm {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.iframe {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #5ab4d3;
+	margin: auto;
+	width: 100%;
+}
+.about {
+	background-image:url("about.jpg") ;
+	font-size: 40px;
+	color: #49b3f5;
+	text-align:center;
+	padding: 70px 0px;
+	margin:20px;
+	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
+}
+
+.about:hover {
+	opacity: 0.5;
+	transition: .5s ease;	
+}
+
+.concerts {
+	background-image:url("concert.png");
+	object-fit: fill;
+	font-size: 40px;
+	color: #49b3f5;
+	text-decoration: none;
+	text-align:center;
+	padding: 70px 0px;
+	margin:20px;
+	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
+}
+
+.concerts:hover {
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
+.signup {
+	background-image:url("sig.png") ;
+	font-size: 40px;
+	color: #49b3f5;
+	text-align:center;
+	padding: 70px 0px;
+	margin:20px;
+	border: 5px solid #d18d35;
+	font-family: 'Allerta', sans-serif;
+}
+
+.signup:hover {
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
+.share {
+	display: grid;
+	grid-template-columns: 5fr 4fr 5fr;
+	background-color: #233d4d;
+	text-align:center;
+	padding: 50px 10px 20px 10px;
+	margin:0px;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
+	margin: 0px;
+	border:0;
+}
+ 
+.share-buttons {
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr 1fr 1fr 5fr;
+	background-color: #233d4d;
+	text-align:left;
+	padding: 20px 20px 50px 60px;
+	margin:0px;
+	font-size: 60px;
+	color: #ffffff;
+	font-family: 'Actor', sans-serif;
+	margin: 0px;
+	border:0;
+}
+
+.underline {
+	display: grid;
+	grid-template-columns: 5fr 4fr 5fr;
+	background-color: #233d4d;
+}
+
+.under {
+	grid-column-start: 2;
+	width: 4fr;
+	height: 8px;
+	background-color: #d18d35;
+	border-radius: 20px;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 100px 1fr 5fr 1fr 60px;
+	grid-template-rows: auto;
+	background-color: #425054;
+	margin: 0px; 
+
+}
+
+.copyright {
+	color: #c0c0c0;
+	font-size: 25px;
+	text-align:center;
+	padding: 40px 20px;
+	border: 5px 0px 0px 0px solid #d18d35;
+	font-family: 'Allerta', sans-serif; 
+}
+.tc-logo {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	padding: 20px;
+	height: 20px;
+}	
+.tc-logo2 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	padding: 20px;
+}	
+
+.button-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+}
+
+.button-overlay:hover .button-text {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-ms-transform: scale(1);
+	transition: .5s ease;
+}
+
+.nav {
+	overflow: hidden;
+	text-align: center;
+}
+
+.nav a {
+	float: center;
+	color: #5ab4d3;
+	text-align: center;
+	padding: 15px 50px;
+	text-decoration: none;
+	font-size: 24px;	
+	list-style-type: none;  
+	display: inline-block;
+ 	font-family: 'Allerta', sans-serif;
+	margin: 0px 100px;
+	transition: ease 0.5s;
+}
+
+
+.nav-container {
+	position: relative;
+	margin: 0px; 
+	padding-top: 0px;
+	width: 100%;
+	padding:20px;
+	margin: auto;
+}
+
+
+.nav a:hover {
+	background-color: rgba(90, 180, 211,.4);
+	border-radius: 5px;
+	font-size: 30px;
+	transition: ease 0.5s;
+}
+
+.nav a:active:after {
+	color: #ffffff;
+	border-radius: 15px;
+	transition: none;
+}
+
+.nav a:active {
+	color: #ffffff;
+	border-radius: 15px;
+	transition: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
